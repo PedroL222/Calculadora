@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    font-size: large;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5A024;
+}
+
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    position: absolute;
+    right: 0px ;
+    top: -550px;
+}
+
+.calc_exibir{
+    top: 50px !important;
+    left: 0px;
+    transition: all 1s;   
+}
+
+.calc_principal{
+    flex-direction: column;
+    background-color: #b1823d;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #754D12;
+}
+
+/*Titulo*/
+.div_nome{
+    width: 292px;
+    text-align: center;
+}
+
+
+.div_teclas{
+    width: 292px;
+    flex-wrap: wrap;
+}
+
+.tecla{
+  background-color: #F5DA24;
+  border: 4px solid #1f1d1d;
+  font-weight: bold;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+.teclaOp{
+    background-color:#F5610A  ;
+    border-color: rgb(206, 3, 3) ;
+}
+
+/*display*/
+.div_display{
+    width: 292px;
+}
+
+.display{
+    width: 292px;
+    background-color: #FCBA56;
+    text-align: right;
+    padding: 5px;
+    font-family: monospace;
+    font-size: larger;
+    border-radius: 5px;
+    border: 2px solid #1f1d1d;
+}
+
+.calc_aba{
+    width: 80px;
+    height: 80px;
+    background-color: #d42828;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.calc_aba>img{
+    width: 60px;
+    height: 60px;
+}
+
+.calc_aba_exibindo{
+    position: absolute;
+    bottom: 30px;
+    transition: all 1s;
+}
+
+.num:hover{
+    background-color: #f8e463bd;
+    font-size: 22px;
+}
+
+.teclaOp:hover{
+    background-color: #f17025d7 ;
+}
